@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "split-veripag",
+      "source": "@split-veripag/v2.3#h71aslgp7817y",
+      "integrity": "sha512-JlkDstGOxxyr9KkEA2fDKCrqeyodNHqR1x74QCcb7I+tqVQEIRL5R18TuV/KaF5q4ZpUje1cDs2He2xXcrNk/A==",
+      "installerVersion": "6.1.1"
+    }
+  ]
+}
