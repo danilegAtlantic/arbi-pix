@@ -5,7 +5,7 @@ import OperacaoListaPgtosAgendadosValidationRules from './ParticipantePixCodIspb
 import {ParticipantePixCodIspbUseCase } from "./ParticipantePixCodIspbUseCase";
 import { logError, tint } from "../../../../../bin/functions/CursorLog";
 
-export class ParticipantePixController {
+export class ParticipantePixCodIspbControllerController {
 
     constructor(private SolicitacaoUseCase: ParticipantePixCodIspbUseCase) { };
 

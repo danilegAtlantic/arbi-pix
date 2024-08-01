@@ -1,13 +1,13 @@
 import { Request, Response } from "express";
 import ResponseHttp from "../../../../../bin/functions/ResponseHttp";
 import ValidateBodyRequest from "../../../../../bin/functions/ValidateBodyRequest";
-import SolicitacaoValidationRules from './SolicitacaoValidationRules.json';
-import { OpenBankingOrdemPagamentoUseCase } from "./Open_bankingOrdemPagamentoUseCase";
+import SolicitacaoValidationRules from './QrCodeDinamicoImagemBase64VencimentoV2ValidationRules.json';
+import { QrCodeDinamicoImagemBase64VencimentoV2UseCase } from "./QrCodeDinamicoImagemBase64VencimentoV2UseCase";
 import { logError, tint } from "../../../../../bin/functions/CursorLog";
 
-export class OpenBankingOrdemPagamentoController {
+export class QrCodeDinamicoImagemBase64VencimentoV2Controller {
 
-    constructor(private SolicitacaoUseCase: OpenBankingOrdemPagamentoUseCase) { };
+    constructor(private SolicitacaoUseCase: QrCodeDinamicoImagemBase64VencimentoV2UseCase) { };
 
     async handle(request: Request, response: Response) {
 

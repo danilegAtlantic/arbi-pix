@@ -1,13 +1,13 @@
 import { Request, Response } from "express";
 import ResponseHttp from "../../../../../bin/functions/ResponseHttp";
 import ValidateBodyRequest from "../../../../../bin/functions/ValidateBodyRequest";
-import SolicitacaoValidationRules from './SolicitacaoValidationRules.json';
-import { OpenBankingOrdemPagamentoUseCase } from "./Open_bankingOrdemPagamentoUseCase";
+import OperacaoListaPgtosAgendadosValidationRules from './OperacaoTratamentoBaixaFalhaDebitoValidationRules.json';
+import {OperacaoTratamentoBaixaFalhaDebitoUseCase } from "./OperacaoTratamentoBaixaFalhaDebitoUseCase";
 import { logError, tint } from "../../../../../bin/functions/CursorLog";
 
-export class OpenBankingOrdemPagamentoController {
+export class OperacaoTratamentoBaixaFalhaDebitoController {
 
-    constructor(private SolicitacaoUseCase: OpenBankingOrdemPagamentoUseCase) { };
+    constructor(private SolicitacaoUseCase: OperacaoTratamentoBaixaFalhaDebitoUseCase) { };
 
     async handle(request: Request, response: Response) {
 

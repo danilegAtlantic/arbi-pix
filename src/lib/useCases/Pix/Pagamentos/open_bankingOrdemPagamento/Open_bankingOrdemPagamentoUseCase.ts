@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig } from 'axios';
 import { OpenBankingOrdemPagamentoDTO } from './Open_bankingOrdemPagamentoDTO';
 import { logError, tint } from '../../../../../bin/functions/CursorLog';
 
-export class OpenBankingOrdemPagamentooUseCase {
+export class OpenBankingOrdemPagamentoUseCase {
     private readonly url: string = 'https://gaph.bancoarbi.com.br/pix/v2/open_banking/ordem_pagamento';
 
     constructor(
